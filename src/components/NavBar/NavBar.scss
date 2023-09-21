@@ -3,7 +3,9 @@
   top: 0;
   z-index: 1;
   background-color: white;
+
   width: 1500px;
+
 
   .container {
     display: flex;
@@ -53,7 +55,7 @@
 
 @media (max-width: 768px) {
   .navbar {
-    width: 390px;
+    width: 400px;
 
     .container {
       .infoContainer {

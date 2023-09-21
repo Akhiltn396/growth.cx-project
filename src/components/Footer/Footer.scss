@@ -1,6 +1,7 @@
 .footer {
   margin-top: 300px;
 
+
   .container {
     position: relative;
 
@@ -62,7 +63,7 @@
 
 @media (max-width: 768px) {
   .footer {
-    width: 350px;
+    width: 400px;
 
     .container {
       .circle1 {
@@ -94,7 +95,7 @@
       }
       .foot {
         height: 400px;
-        width: 350px;
+        width: 100%;
         background-color: black;
         position: absolute;
         top: 150px;

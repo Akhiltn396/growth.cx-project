@@ -1,11 +1,13 @@
 .customers {
   margin-top: 100px;
-  margin-left: 30px;
+  margin-left: 0px;
   position: relative;
   padding: 0px 150px;
   display: flex;
   flex-direction: column;
   gap: 80px;
+
+  width: 300px;
 
   .chat-box:nth-child(odd) {
     border: 8px solid black;
@@ -126,6 +128,8 @@
     flex-direction: row;
     overflow-x: scroll;
     overflow-y: hidden;
+    width: 400px;
+
 
     .chat-box:nth-child(odd) {
       min-width: 270px;
