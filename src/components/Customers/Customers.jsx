@@ -66,7 +66,6 @@ const Customers = () => {
           </div>
         </div>
         <div className="customer">”</div>
-
       </div>
 
       {/* 3rd customer */}
@@ -99,7 +98,6 @@ const Customers = () => {
           </div>
         </div>
         <div className="customer">“</div>
-
       </div>
 
       {/* 4th customer */}
@@ -133,9 +131,7 @@ const Customers = () => {
           </div>
         </div>
         <div className="customer">”</div>
-
       </div>
-
     </div>
   );
 };

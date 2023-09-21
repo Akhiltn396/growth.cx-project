@@ -13,14 +13,12 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-      <NavBar />
-      <Hero/>
-      <Customers/>
-      <Footer/>
-      {/* <SubFooter/> */}
-
+        <NavBar />
+        <Hero />
+        <Customers />
+        <Footer />
+        <SubFooter />
       </div>
-
     </div>
   );
 }

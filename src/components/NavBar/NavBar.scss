@@ -10,7 +10,6 @@
     justify-content: space-between;
     padding-top: 25px;
 
-
     .imgContainer {
       .img {
         width: 300px;
@@ -52,18 +51,14 @@
   }
 }
 
-@media (max-width:768px){
-
-  .navbar{
+@media (max-width: 768px) {
+  .navbar {
     width: 390px;
 
-
-  .container{
-
-
-    .infoContainer{
-    display: none;
+    .container {
+      .infoContainer {
+        display: none;
+      }
     }
-  }
   }
 }

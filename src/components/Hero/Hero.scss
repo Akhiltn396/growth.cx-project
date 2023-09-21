@@ -2,16 +2,14 @@
   .container {
     position: relative;
     .clippy1 {
+      position: absolute;
 
-        position: absolute;
-
-        top: 40px;
+      top: 40px;
       .img {
         height: 500px;
         width: 330px;
         clip-path: polygon(0% 0%, 54% 0, 100% 50%, 55% 100%, 0% 100%);
-
-    }
+      }
     }
     .contents {
       text-align: center;
@@ -27,54 +25,43 @@
     }
 
     .clippy2 {
+      position: absolute;
 
-        position: absolute;
+      left: 1050px;
+      top: 35px;
+      .img {
+        height: 500px;
+        width: 330px;
+        clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+      }
+    }
+  }
+  .few {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 60px;
+  }
+}
 
-        left: 1050px;
-        top: 35px;
+@media (max-width: 768px) {
+  .hero {
+    width: 300px;
+    .container {
+      .clippy1 {
         .img {
-            height: 500px;
-            width: 330px;
-            clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
-
+          display: none;
         }
+      }
+      .clippy2 {
+        .img {
+          display: none;
+        }
+      }
     }
   }
-  .few{
-text-align: center;
-font-size: 25px;
-font-weight: bold;
-padding-top: 60px;
-
-
-}
-}
-
-
-@media (max-width:768px){
-
-
-  .hero{
+  .few {
+    text-align: center;
     width: 300px;
-  .container{
-
- .clippy1{
-  .img{
-    display: none;
-    }
-}
- .clippy2{
-  .img{
-    display: none;
-    }
-}
   }
-  }
-  .few{
-
-    text-align:center;
-    width: 300px;
-
-    }
-
 }
