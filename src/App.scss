@@ -1,0 +1,23 @@
+.app {
+  height: 100vh;
+
+
+  .container {
+
+  margin: 0px 85px;
+
+}
+
+}
+@media (max-width:768px){
+
+  .app{
+    .container {
+
+      margin: 0px 0px;
+
+    }
+
+  }
+
+}
