@@ -4,7 +4,7 @@
   z-index: 1;
   background-color: white;
 
-  width: 1500px;
+  width: 100%;
 
 
   .container {
@@ -55,7 +55,8 @@
 
 @media (max-width: 768px) {
   .navbar {
-    width: 380px;
+    width: 411px;
+
 
     .container {
       .infoContainer {

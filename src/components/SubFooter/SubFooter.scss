@@ -1,10 +1,10 @@
 .subfooter {
-  background-color: black;
   color: white;
-  margin: 0px 85px;
+  margin: 0px 0px;
   height: 400px;
   margin-top: 400px;
-
+  width: 100%;
+  background-color: black;
 
   .container {
     display: flex;
@@ -32,8 +32,9 @@
 @media (max-width: 768px) {
   .subfooter {
     height: 700px;
-    width: 380px;
+    width: 410px;
     margin-left: 0px;
+    background-color: black;
 
     text-align: center;
 

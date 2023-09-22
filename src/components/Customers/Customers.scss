@@ -7,13 +7,15 @@
   flex-direction: column;
   gap: 80px;
 
-  width: 300px;
+
+  width: 1115px;
 
   .chat-box:nth-child(odd) {
     border: 8px solid black;
     border-radius: 30px;
     height: 350px;
     width: 700px;
+
 
     .info {
       display: flex;
@@ -128,7 +130,9 @@
     flex-direction: row;
     overflow-x: scroll;
     overflow-y: hidden;
-    width: 380px;
+
+    width: 410px;
+    cursor: pointer;
 
 
     .chat-box:nth-child(odd) {
@@ -240,4 +244,7 @@
   .customer {
     display: none;
   }
+}
+.customers::-webkit-scrollbar{
+display: none;
 }

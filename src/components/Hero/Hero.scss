@@ -1,11 +1,15 @@
 .hero {
 
+width: 100%;
+
+
   .container {
     position: relative;
     .clippy1 {
       position: absolute;
 
       top: 40px;
+      left: 60px;
       .img {
         height: 500px;
         width: 330px;
@@ -28,7 +32,7 @@
     .clippy2 {
       position: absolute;
 
-      left: 1050px;
+      left: 1230px;
       top: 35px;
       .img {
         height: 500px;
@@ -47,7 +51,8 @@
 
 @media (max-width: 768px) {
   .hero {
-    width: 380px;
+    width: 410px;
+
     .container {
       .clippy1 {
         .img {
